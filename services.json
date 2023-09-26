@@ -1,0 +1,16 @@
+{
+    "services": [
+        {
+            "localhostPort": 8080,
+            "containerPort": 8080,
+            "serviceName": "service/jenkins-service",
+            "namespace": "devops-tools"
+        },
+        {
+            "localhostPort": 8081,
+            "containerPort": 443,
+            "serviceName": "service/argo-cd-argocd-server",
+            "namespace": "argocd"
+        }
+    ]
+}
